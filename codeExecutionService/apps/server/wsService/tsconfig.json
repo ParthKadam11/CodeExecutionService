@@ -1,0 +1,12 @@
+{
+    "extends": "../../../packages/typescript-config/nextjs.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "strict": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
