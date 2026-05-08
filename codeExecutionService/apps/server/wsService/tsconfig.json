@@ -1,7 +1,7 @@
 {
-    "extends": "../../../packages/typescript-config/nextjs.json",
+    "extends": "../../../packages/typescript-config/base.json",
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "NodeNext",
         "rootDir": "./src",
         "outDir": "./dist",
         "strict": true

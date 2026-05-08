@@ -1,11 +1,16 @@
 {
-    "extends": "../../../packages/typescript-config/nextjs.json",
+    "extends": "../../../packages/typescript-config/base.json",
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "NodeNext",
         "rootDir": "./src",
         "outDir": "./dist",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true
     },
+    "include": ["src/**/*"],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "dist"
     ]
 }
